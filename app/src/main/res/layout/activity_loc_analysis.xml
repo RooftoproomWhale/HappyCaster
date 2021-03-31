@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.hci.happycaster.ActivityClass.LocAnalysisActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.hci.happycaster.CustomView.HappyRanking1Image
+            android:id="@+id/Ranking1view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Ranking3view"
+            android:layout_centerHorizontal="true"
+            app:HeartSrc="@drawable/loc_heart3"
+            app:ImageSrc="@drawable/loc_1st_arrow1"
+            app:Text="서울"
+            app:TextColor="@color/RED" />
+
+        <com.hci.happycaster.CustomView.HappyRanking1Image
+            android:id="@+id/Ranking2view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Ranking1view"
+            android:layout_toLeftOf="@+id/Ranking1view"
+            android:layout_toStartOf="@+id/Ranking1view"
+            app:HeartSrc="@drawable/loc_heart2"
+            app:ImageSrc="@drawable/loc_2nd_arrow2"
+            app:Text="울산"
+            app:TextColor="@color/GREEN" />
+
+        <com.hci.happycaster.CustomView.HappyRanking1Image
+            android:id="@+id/Ranking3view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HappyRankingview"
+            android:layout_toEndOf="@+id/Ranking1view"
+            android:layout_toRightOf="@+id/Ranking1view"
+            app:HeartSrc="@drawable/loc_heart4"
+            app:ImageSrc="@drawable/loc_3rd_arrow3"
+            app:Text="대구"
+            app:TextColor="@color/BLUE" />
+
+        <com.hci.happycaster.CustomView.HappyRanking
+            android:id="@+id/HappyRankingview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/Ranking1view"
+            android:layout_toRightOf="@+id/Ranking1view"
+            app:HappyPerText="81%"
+            app:LocRanking1Text="1. 멜로망스"
+            app:LocRanking2Text="2. 솔루션스"
+            app:LocRanking3Text="3. 안녕하신가영"
+            app:MonthText="주간" />
+
+        <com.hci.happycaster.CustomView.HappyRanking2
+            android:id="@+id/HappyRankingview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Ranking1view"
+            android:layout_toLeftOf="@+id/Ranking2view"
+            app:HappyPerText2="65%"
+            app:LocRanking1Text2="1. 선물"
+            app:LocRanking2Text2="2. Love You Dear"
+            app:LocRanking3Text2="3. 그리고 너"
+            app:MonthText2="주간" />
+
+        <com.hci.happycaster.CustomView.HappyRanking3
+            android:id="@+id/HappyRankingview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Ranking1view"
+            android:layout_toRightOf="@+id/Ranking3view"
+            app:HappyPerText3="35%"
+            app:LocRanking1Text3="1. 소란"
+            app:LocRanking2Text3="2. 치즈"
+            app:LocRanking3Text3="3. 수지"
+            app:MonthText3="주간" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/Chartview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:elevation="0dp"
+            app:srcCompat="@drawable/loc_logoname" />
+    </LinearLayout>
+
+</LinearLayout>

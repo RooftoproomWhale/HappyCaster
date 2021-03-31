@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hci.happycaster.ActivityClass.RealTimeMapActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/LocationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/MapView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_realtime_map" />
+
+        <com.hci.happycaster.CustomView.LocationImageView_Reverse
+            android:id="@+id/loc_busan_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="480dp"
+            android:onClick="mOnClick"
+            app:LocImageSrc="@drawable/menu_realtime_busan_reverse"
+            app:LocText=""
+            app:LocTextColor="@color/colorPrimary"
+            app:WeatherImageSrc="@drawable/menu_realtime_icon1" />
+
+        <com.hci.happycaster.CustomView.LocationImageView
+            android:id="@+id/loc_ulsan_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="415dp"
+            android:layout_marginTop="285dp"
+            android:onClick="mOnClick"
+            app:LocImageSrc="@drawable/menu_realtime_ulsan"
+            app:LocText=""
+            app:LocTextColor="@color/colorPrimary"
+            app:WeatherImageSrc="@drawable/menu_realtime_icon1" />
+
+        <com.hci.happycaster.CustomView.LocationImageView
+            android:id="@+id/loc_daegu_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="300dp"
+            android:onClick="mOnClick"
+            app:LocImageSrc="@drawable/menu_realtime_daegu"
+            app:LocText=""
+            app:LocTextColor="@color/colorPrimary"
+            app:WeatherImageSrc="@drawable/menu_realtime_icon1" />
+
+        <com.hci.happycaster.CustomView.LocationImageView
+            android:id="@+id/loc_gwangju_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="390dp"
+            android:onClick="mOnClick"
+            app:LocImageSrc="@drawable/menu_realtime_gwangju"
+            app:LocText=""
+            app:LocTextColor="@color/colorPrimary"
+            app:WeatherImageSrc="@drawable/menu_realtime_icon1" />
+
+        <com.hci.happycaster.CustomView.LocationImageView
+            android:id="@+id/loc_deojeon_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="240dp"
+            android:onClick="mOnClick"
+            app:LocImageSrc="@drawable/menu_realtime_daejeon"
+            app:LocText=""
+            app:LocTextColor="@color/colorPrimary"
+            app:WeatherImageSrc="@drawable/menu_realtime_icon1" />
+
+        <com.hci.happycaster.CustomView.LocationImageView
+            android:id="@+id/loc_seoul_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="80dp"
+            android:onClick="mOnClick"
+            app:LocImageSrc="@drawable/menu_realtime_seoul"
+            app:LocText=""
+            app:LocTextColor="@color/colorPrimary"
+            app:WeatherImageSrc="@drawable/menu_realtime_icon1" />
+
+        <com.hci.happycaster.CustomView.LocationImageView_Reverse
+            android:id="@+id/loc_incheon_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:onClick="mOnClick"
+            app:LocImageSrc="@drawable/menu_realtime_incheon_reverse"
+            app:LocText=""
+            app:LocTextColor="@color/colorPrimary"
+            app:WeatherImageSrc="@drawable/menu_realtime_icon1" />
+
+    </RelativeLayout>
+
+    <com.hci.happycaster.CustomView.ReferenceView
+        android:id="@+id/Timeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/menu_realtime_logoname"
+            android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

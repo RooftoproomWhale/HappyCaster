@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name = "LocationImage">
+        <attr name = "LocImageSrc" format="reference|integer"/>
+        <attr name = "WeatherImageSrc" format="reference|integer"/>
+        <attr name = "LocText" format="reference|string"/>
+        <attr name = "LocTextColor" format="reference|integer" />
+        <attr name = "LocBestImage" format="reference|integer" />
+    </declare-styleable>
+    <declare-styleable name = "HappyAndRankingImage">
+        <attr name = "HappyText" format="reference|string"/>
+        <attr name = "Ranking1Text" format="reference|string"/>
+        <attr name = "Ranking2Text" format="reference|string"/>
+        <attr name = "Ranking3Text" format="reference|string"/>
+    </declare-styleable>
+    <declare-styleable name = "HappyLocRankingImage">
+        <attr name = "MonthText" format="reference|string"/>
+        <attr name = "HappyPerText" format="reference|string"/>
+        <attr name = "LocRanking1Text" format="reference|string"/>
+        <attr name = "LocRanking2Text" format="reference|string"/>
+        <attr name = "LocRanking3Text" format="reference|string"/>
+    </declare-styleable>
+    <declare-styleable name="HappyRanking1Image">
+        <attr name = "Text" format="reference|string" />
+        <attr name = "TextColor" format="reference|integer"/>
+        <attr name = "ImageSrc" format="reference|integer"/>
+        <attr name = "HeartSrc" format="reference|integer"/>
+    </declare-styleable>
+    <declare-styleable name = "HappyLocRanking2Image">
+        <attr name = "MonthText2" format="reference|string"/>
+        <attr name = "HappyPerText2" format="reference|string"/>
+        <attr name = "LocRanking1Text2" format="reference|string"/>
+        <attr name = "LocRanking2Text2" format="reference|string"/>
+        <attr name = "LocRanking3Text2" format="reference|string"/>
+    </declare-styleable>
+    <declare-styleable name = "HappyLocRanking3Image">
+        <attr name = "MonthText3" format="reference|string"/>
+        <attr name = "HappyPerText3" format="reference|string"/>
+        <attr name = "LocRanking1Text3" format="reference|string"/>
+        <attr name = "LocRanking2Text3" format="reference|string"/>
+        <attr name = "LocRanking3Text3" format="reference|string"/>
+    </declare-styleable>
+    <declare-styleable name = "ReferenceTimeImage">
+        <attr name = "TimeText" format="reference|string"/>
+    </declare-styleable>
+</resources>

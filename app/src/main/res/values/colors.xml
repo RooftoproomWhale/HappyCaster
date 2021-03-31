@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="RED">#ff0000</color>
+    <color name="ORANGE">#FF7f00</color>
+    <color name="YELLOW">#FFD200</color>
+    <color name="GREEN">#40a940</color>
+    <color name="BLUE">#1e82ff</color>
+    <color name="INDIGO">#3C467D</color>
+    <color name="PURPLE">#aa1aaa</color>
+    <color name="BLACK">#000000</color>
+    <color name="FOREST">#014421</color>
+    <color name="WGRAY">#c7c7c7</color>
+    <color name="GRAY">#A0A0A0</color>
+    <color name="Busan">#3CA266</color>
+    <color name="Daegu">#50559A</color>
+    <color name="Daejeon">#4B98A9</color>
+    <color name="Gwangju">#7E3370</color>
+    <color name="Incheon">#3682A1</color>
+    <color name="Seoul">#88AD37</color>
+    <color name="Ulsan">#B68D21</color>
+</resources>
